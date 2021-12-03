@@ -1,14 +1,13 @@
-# Today-I-Learned
-Goal: record my progress as a developer, an investor and a person
+# Today-I-Learned: record my progress as a developer, an investor and a person
 
 
------------------------------- 2022 ------------------------------
+------------------------------------------------------------ 2022 ------------------------------------------------------------
 
 Goals for the year
 1) Re-complete Leetcode Explore + bit manipulation + top interview questions
 2) Start a side project that can scale to practice implementing system design concepts (DNS, CDN, cache, load balancer, DB replicas, sharding, hashing, service workers, etc.)
 
------------------------------- 2021 ------------------------------
+------------------------------------------------------------ 2021 ------------------------------------------------------------
 
 Goals for the year
 1) Finish Leetcode Explore
