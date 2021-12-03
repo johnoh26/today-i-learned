@@ -3,13 +3,13 @@
 
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
-Goals for the year
+Goals for the year:
 1) Re-complete Leetcode Explore + bit manipulation + top interview questions
 2) Start a side project that can scale to practice implementing system design concepts (DNS, CDN, cache, load balancer, DB replicas, sharding, hashing, service workers, etc.)
 
 ------------------------------------------------------------ 2021 ------------------------------------------------------------
 
-Goals for the year
+Goals for the year:
 1) Finish Leetcode Explore
 2) Finish reading Donne Martin's system design primer
 
