@@ -1,5 +1,6 @@
 # Today-I-Learned: record my progress as a developer, an investor and a person
 
+## motivation: Famous Japanes writer Haruki Murakami has a famous routine that he sticks to. This enabled him to be a great writer. I wanted to adopt his approach in my journey to become a great developer. In this repo, I wanted to share my journey with whoever is interested.
 
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
