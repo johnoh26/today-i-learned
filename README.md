@@ -16,6 +16,10 @@ Goals for the year:
 1) Finish Leetcode Explore
 2) Finish reading Donne Martin's system design primer
 
+12/7
+- to start a project, I want to download: Chrome, VS code, npm, node.js, angular, typescript
+- CAP theorem states that you can choose two things from Consistency, Availability and Partition Tolerance.
+- RDBMS tend to focus on CA and ACID properties while noSQL DBs focus on AP or CP.
 
 12/2
 - in javascript, we can use filter to mimic map and vice versa, although the result will be [2,4,6,8,10] vs [undefined, 2, undefined, 4, undefined, 6, undefined, 8, undefined, 10] when we filter even numbers from [1,2,3,4,5,6,7,8,9,10] using filter vs. map.
