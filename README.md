@@ -16,6 +16,12 @@ Goals for the year:
 1) Finish Leetcode Explore
 2) Finish reading Donne Martin's system design primer
 
+12/21
+- .Net Core is not .Net and ASP.NET 4.x is now ASP.NET
+- I want to test everything about the app. 
+  - Frontend (using Devtools and Redux tools for networking, elements and state management, how to performance test a component?)
+  - Backend (how to performance test and load test each api?)
+
 12/7
 - to start a project, I want to download: Chrome, VS code, npm, node.js, angular, typescript
 - CAP theorem states that you can choose two things from Consistency, Availability and Partition Tolerance.
