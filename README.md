@@ -16,6 +16,10 @@ Goals for the year:
 1) Finish Leetcode Explore
 2) Finish reading Donne Martin's system design primer
 
+12/22
+- can use Chrome dev tools Audit function to performance teest the frontend
+- polyfill is to bridge the gaps between browsers (i.e. satisfy code's compatibility with different browsers)
+
 12/21
 - .Net Core is not .Net and ASP.NET 4.x is now ASP.NET
 - I want to test everything about the app. 
