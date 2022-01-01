@@ -1,27 +1,44 @@
-# Today-I-Learned: 
+# Today-I-Learned (TIL)
 ## Records of my progress as a developer, an investor and a person
-### Japanese writer Haruki Murakami has a famous routine that he sticks to. This enabled him to be a great writer. I wanted to adopt his approach in my journey to become a great developer. In this repo, I wanted to share my journey with whoever is interested.
+### Japanese writer Haruki Murakami has a famous routine that he sticks to. 
+### This enabled him to be a great writer. 
+### I wanted to adopt his approach in my journey to become a great developer. 
+### In this repo, I wanted to share my journey with whoever is interested.
+
+#### Books to read
+- Release it (paper copy)
+- Imposter's handbook 1,2
+- System design interview by Alex Xu (https://ebin.pub/qdownload/system-design-interview-an-insiders-guide-2nbsped-9798664653403.html)
+- Designing Data-Intensive Applications by Martin Kleppmann (http://xfido.com/pdf/designing-data-intensive-applications.pdf)
+- Clean architecture by uncle Bob (http://prof.mau.ac.ir/images/Uploaded_files/Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Pearson%20Education%20(2018)%5B7615523%5D.PDF)
+- https://understandingdistributed.systems/
+- Design Patterns by GOF (http://www.uml.org.cn/c++/pdf/designpatterns.pdf)
 
 ------------------------------------------------------------ 2023 ------------------------------------------------------------
 
-1) Finish reading Donne Martin's system design primer
-2) Start a side project that can scale to practice implementing system design concepts (Angular, DNS, CDN, cache, load balancer, DB replicas, sharding, hashing, service workers, etc.)
-3) Machine learning
+1) 1 Leetcode
+2) an article or pages in a book
+3) Participate in Kaggle
+4) 1 TIL
 
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
 Daily goals for the year:
 1) 1 Leetcode
-2) 1 Tech Tues article
+2) a Tech Tuesday article or a chapter in a book
 3) 1 TIL 
 
-
+1/1 Sat
 
 ------------------------------------------------------------ 2021 ------------------------------------------------------------
 
 Goals for the year:
 1) Start Leetcode Explore
 2) Start reading Donne Martin's system design primer
+
+12/31 F
+- Leetcode - Reverse string (using recursion)
+- Tech Tues article on networking: the Open system interconnection 7 layer model. 7 layers are physical (e.g. ethernet or wifi), datalink, network (IP), transport (TCP), session, presentation, application (HTTP)
 
 12/30
 -SOLID principles
