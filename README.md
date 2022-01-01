@@ -41,7 +41,7 @@ Goals for the year:
 - Tech Tues article on networking: the Open system interconnection 7 layer model. 7 layers are physical (e.g. ethernet or wifi), datalink, network (IP), transport (TCP), session, presentation, application (HTTP)
 
 12/30
--SOLID principles
+- SOLID principles
 Single responsibility: do one thing i.e. should have only one reason for the code to change
 e.g. CalorieTracker class having a calculateCalories method and a logCalories method violates the principle.
 solution: create a Logger class and use the logger class to log calories and remove logCalories method from the CalorieTracker class
