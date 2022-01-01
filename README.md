@@ -1,4 +1,4 @@
-# Today-I-Learned (TIL)
+# Today I Learned (TIL)
 ## Records of my progress as a developer, an investor and a person
 ### Japanese writer Haruki Murakami has a famous routine that he sticks to. 
 ### This enabled him to be a great writer. 
