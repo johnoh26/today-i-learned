@@ -14,18 +14,11 @@
 - https://understandingdistributed.systems/
 - Design Patterns by GOF (http://www.uml.org.cn/c++/pdf/designpatterns.pdf)
 
------------------------------------------------------------- 2023 ------------------------------------------------------------
-
-1) 1 Leetcode
-2) an article or pages in a book
-3) Participate in Kaggle
-4) 1 TIL
-
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
 Daily goals for the year:
 1) 1 Leetcode
-2) a Tech Tuesday article or a chapter in a book
+2) a Tech Tuesday article or few pages in a book
 3) 1 TIL 
 
 1/1 Sat
