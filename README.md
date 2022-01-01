@@ -4,7 +4,6 @@
 ### This enabled him to be a great writer. 
 ### I wanted to adopt his approach in my journey to become a great developer. 
 ### In this repo, I wanted to share my journey with whoever is interested.
-
 #### Books to read
 - Release it (paper copy)
 - Imposter's handbook 1,2
