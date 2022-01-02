@@ -23,8 +23,6 @@ Daily goals for the year:
 2) a Tech Tuesday article or few pages in a book
 3) 1 TIL 
 
-1/2 Sun
-
 1/1 Sat
 - Leetcode: Swap nodes in pairs (recursion and iterative solution)
 Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
