@@ -23,7 +23,48 @@ Daily goals for the year:
 2) a Tech Tuesday article or few pages in a book
 3) 1 TIL 
 
+1/2 Sun
+
 1/1 Sat
+- Leetcode: Swap nodes in pairs (recursion and iterative solution)
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+
+Example 1:
+Input: head = [1,2,3,4]
+Output: [2,1,4,3]
+
+Example 2:
+Input: head = []
+Output: []
+
+Example 3:
+Input: head = [1]
+Output: [1]
+
+var swapPairs = function(head) {
+    // empty node
+    if(head == null) {
+        return head
+    }
+    
+    // one node
+    if(head.next == null) {
+        return head
+    }
+    
+    // switch direction
+    let next = head.next
+    let nextNext = next.next
+    next.next = head
+    
+    // recurse to the next nodes
+    head.next = swapPairs(nextNext)
+    
+    // make next nodes point back
+    return next
+};
+
+- TIL that how input/output (I/O) devices or peripherals work for computers. For example, when the keyboard is pressed, "interrupts" make the CPU take note of the pressed key and save it to a memory location aka "keyboard buffer" which is a queue like a printer queue where we can see jobs for a printer except this is for the keyboard. All this work is done by the keyboard driver, and the interrupts and keyboard buffer are a part of the computer's operating system (OS). Peripherals also communicate with the computer via the physical layer e.g. HDMI cable or USB drive (Bluetooth?)
 
 ------------------------------------------------------------ 2021 ------------------------------------------------------------
 
@@ -32,7 +73,7 @@ Goals for the year:
 2) Start reading Donne Martin's system design primer
 
 12/31 F
-- Leetcode - Reverse string (using recursion)
+- Leetcode: Reverse string (using recursion)
 - Tech Tues article on networking: the Open system interconnection 7 layer model. 7 layers are physical (e.g. ethernet or wifi), datalink, network (IP), transport (TCP), session, presentation, application (HTTP)
 
 12/30
