@@ -3,9 +3,9 @@
 ### Japanese writer Haruki Murakami has a famous routine that he sticks to.
 ### Consistently write something everyday, no matter how little.
 ### This enabled him to be a great writer. 
-### Charlie Munger also suggested to be a little smarter everyday.
+### Charlie Munger has a mental model of trying to be a little smarter everyday.
 ### This mental model led him to be a great thinker and investor.
-### I wanted to adopt their approaches in my journey to become a great developer. 
+### I wanted to clone their approaches in my journey to become a great developer. 
 ### In this repo, I wanted to share my journey with whoever is interested.
 #### Books to read
 - Release it (paper copy)
