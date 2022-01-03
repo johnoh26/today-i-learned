@@ -9,12 +9,12 @@
 ### In this repo, I wanted to share my journey with whoever is interested.
 #### Books to read
 - Release it (paper copy)
-- Imposter's handbook 1,2
-- System design interview by Alex Xu (https://ebin.pub/qdownload/system-design-interview-an-insiders-guide-2nbsped-9798664653403.html)
-- Designing Data-Intensive Applications by Martin Kleppmann (http://xfido.com/pdf/designing-data-intensive-applications.pdf)
-- Clean architecture by uncle Bob (http://prof.mau.ac.ir/images/Uploaded_files/Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Pearson%20Education%20(2018)%5B7615523%5D.PDF)
-- https://understandingdistributed.systems/
-- Design Patterns by GOF (http://www.uml.org.cn/c++/pdf/designpatterns.pdf)
+- [Imposter's handbook 1 & 2](https://bigmachine.io/products/the-imposters-handbook/)
+- [System design interview by Alex Xu](https://ebin.pub/qdownload/system-design-interview-an-insiders-guide-2nbsped-9798664653403.html)
+- [Designing Data-Intensive Applications by Martin Kleppmann](http://xfido.com/pdf/designing-data-intensive-applications.pdf)
+- [Clean architecture by uncle Bob](http://prof.mau.ac.ir/images/Uploaded_files/Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Pearson%20Education%20(2018)%5B7615523%5D.PDF)
+- [Understanding distributed systems](https://understandingdistributed.systems/)
+- [Design Patterns by GOF](http://www.uml.org.cn/c++/pdf/designpatterns.pdf)
 
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
