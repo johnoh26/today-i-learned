@@ -19,49 +19,15 @@
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
 Daily goals for the year:
-1) 1 Leetcode
-2) a Tech Tuesday article or few pages in a book
-3) 1 TIL 
+1) 1 TIL from a Tech Tuesday article or few pages in a book
+2) 1 Leetcode
+
+1/3 M
+
+1/2 Sun
+- TIL that OS (operating system) is what glues the pillars (peripherals, networking, memory, storage, processing) of a computer together. Examples are iOS, Windows, OS X, Linux, Unix, etc. Server computers are basically a specialized computer and they use IOS (Cisco) and Junos (Juniper). OS used to be in ROM (read-only memory) in the past but as OS's got larger and ROM can't be overwritten, a boot loader loads the rest of the OS (this process is called booting). How is boot loader getting data from disk when I/O needs an OS? There is a BIOS (basic I/O system) that is saved in flash memory that can handle this process. An OS is largely composed of two parts: (1) kernel and (2) the rest. Different OS's have different features in the kernel. The kernel space can only be accessed by code executing inside the kernel, and this is separate from the user space. User space can be accessed by the end user, running theprograms on top of the OS.
 
 1/1 Sat
-- Leetcode: Swap nodes in pairs (recursion and iterative solution)
-Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
-
-Example 1:
-Input: head = [1,2,3,4]
-Output: [2,1,4,3]
-
-Example 2:
-Input: head = []
-Output: []
-
-Example 3:
-Input: head = [1]
-Output: [1]
-
-var swapPairs = function(head) {
-    // empty node
-    if(head == null) {
-        return head
-    }
-    
-    // one node
-    if(head.next == null) {
-        return head
-    }
-    
-    // switch direction
-    let next = head.next
-    let nextNext = next.next
-    next.next = head
-    
-    // recurse to the next nodes
-    head.next = swapPairs(nextNext)
-    
-    // make next nodes point back
-    return next
-};
-
 - TIL that how input/output (I/O) devices or peripherals work for computers. For example, when the keyboard is pressed, "interrupts" make the CPU take note of the pressed key and save it to a memory location aka "keyboard buffer" which is a queue like a printer queue where we can see jobs for a printer except this is for the keyboard. All this work is done by the keyboard driver, and the interrupts and keyboard buffer are a part of the computer's operating system (OS). Peripherals also communicate with the computer via the physical layer e.g. HDMI cable or USB drive (Bluetooth?)
 
 ------------------------------------------------------------ 2021 ------------------------------------------------------------
