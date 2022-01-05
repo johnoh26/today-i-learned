@@ -22,7 +22,24 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/5 W
+- 
+
+1/4 T
+- TIL about URL (uniform resource locator)
+- there are various protocols for the internet. HTTP(s): is common, but there are ftp: (for file) and mailto: (for SMTP)
+- "//" indicates that the url starts with a domain name
+- following the domain name is the location of the resource within that domain
+
 1/3 M
+- TIL that when we enter a URL to a browser it goes thru several steps
+1) http(s) automatically gets added thesedays and the URL gets parse to get the domain name e.g. google
+2) look up the domain's IP address from the DNS (domain name system)
+3) makes a GET request to the above IP address
+4) the request is routed via various machines e.g. router, switch, load balancer, firewall
+5) the request arrives on the server. Server (like Apache or NGINX) sends a response back to where the request came from
+6) the browser gets the response and renders the view while continuously making request if instructed
+7) as the browser waits for responses, it will render the content that it has received
 
 1/2 Sun
 - TIL that OS (operating system) is what glues the pillars (peripherals, networking, memory, storage, processing) of a computer together. Examples are iOS, Windows, OS X, Linux, Unix, etc. Server computers are basically a specialized computer and they use IOS (Cisco) and Junos (Juniper). OS used to be in ROM (read-only memory) in the past but as OS's got larger and ROM can't be overwritten, a boot loader loads the rest of the OS (this process is called booting). How is boot loader getting data from disk when I/O needs an OS? There is a BIOS (basic I/O system) that is saved in flash memory that can handle this process. An OS is largely composed of two parts: (1) kernel and (2) the rest. Different OS's have different features in the kernel. The kernel space can only be accessed by code executing inside the kernel, and this is separate from the user space. User space can be accessed by the end user, running theprograms on top of the OS.
