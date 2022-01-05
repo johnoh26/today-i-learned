@@ -22,6 +22,9 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/6 Th
+- 
+
 1/5 W
 - TIL 5 design patterns: null object, builder, singleton, facade, command
 - null object pattern can be used when you create a class e.g. User which has getUser method that returns user's name. We may have to check if the name is null every time we use getUser. Instead, we can create a NullUser class that has "Guest" as name and the getUser function can return it if the name is null. This way, we don't have to add null checks every time we use this method.
