@@ -23,7 +23,35 @@ Daily goals for the year:
 2) 1 Leetcode
 
 1/5 W
-- 
+- TIL 5 design patterns: null object, builder, singleton, facade, command
+- null object pattern can be used when you create a class e.g. User which has getUser method that returns user's name. We may have to check if the name is null every time we use getUser. Instead, we can create a NullUser class that has "Guest" as name and the getUser function can return it if the name is null. This way, we don't have to add null checks every time we use this method.
+- builder pattern can be used when there is a class with 4 properties. Instead of using a constructor to populate those fields, we can use the constructor for required properties and use methods for the rest.
+e.g. `class User {
+  constructor(name, age, gender, address) {
+    this.name = name
+    ...
+  }
+}`
+
+this can lead to an ugly code like this "new User("Tom", null, null, "sesame st"). Instead, say the name is the only required field, we can make methods to set the other properties. 
+`class User {
+  constructor(name, age, gender, address) {
+    this.name = name
+  }
+  
+  setAge(): {
+    this.age = age
+  }
+  ...
+}`
+this way, we can use 
+`let user = new User("Tom")
+user.setAge(21)`
+
+- singleton pattern can be controversial and should be used when absolutely adequate. The example used was a logger for the entire application. Create a single instance of a logger class that is used everywhere. Singleton can be dangerous because it can make code hard to test as it may require the use of the singleton, and updates to the singleton can impact a lot of things.
+- facade pattern is used to simplify code and centralize the complexity. The example used was a fetch method. We can extract the detailed implementation out by creating a wrapper that gets the required parameters as arguments. Think about using this pattern when we are repeating the same code.
+- command pattern is used to do/undo a command or operation. The example used was a calculator class with 4 basic math operations. We could break them apart into a class of its own that has execute and undo methods. The calculator class can have a history property that keep track of what operation we performed with what number so that we can undo them. This can be useful for applications that should provide users to undo an action. 
+(This example got me wondering whether a Calculator class with 4 operations would violate the SRP (single resp principle) or does it make sense because the calculator should be able to do those four operations? What is an object in OOP?)
 
 1/4 T
 - TIL about URL (uniform resource locator)
