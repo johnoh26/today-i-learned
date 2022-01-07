@@ -22,8 +22,14 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/7 F
+
 1/6 Th
-- 
+- When we type a URL into a browser and press enter, it parses it first as explained below. But how do we get the IP address when we type in google.com? 
+The answer is DNS (domain name system). The request goes to the 13 root servers and start from the TLD (top level domain) such as .com or .net. Then, the TLD name server points to the name server for the domain e.g. google.com and then from there it looks for the name server of its subdomain e.g. calendar.google.com.
+This process of going from TLD to subdomain is called a recursive lookup.
+This process is expensive and is alleviated by the use of caches at various levels: ISP, 13 root servers, domain server.
+Each TLD has one or more registrar associated who helps people reserve names in that domain
 
 1/5 W
 - TIL 5 design patterns: null object, builder, singleton, facade, command
