@@ -23,6 +23,14 @@ Daily goals for the year:
 2) 1 Leetcode
 
 1/7 F
+- after a url is entered into a browser and the ip address is received from the DNS, the three way handshake happens where the client sends the server SYN, the server sends back SYN-ACK and client then sends back ACK.
+The three way handshake is used to establish TCP connection. UDP is connectionless and doesn't use the three way handshake, less reliable than TCP.
+IP breaks our requests (usually GET, POST, PUT, or DELETE) into packets and sends it over. These packets can arrive at the server out of order or not at all.
+TCP uses checksum to make sure that all the packets that were sent have arrived.
+Checksum can fail in which case the packet is discarded (any notice back to the client? Retry?)
+There's also a small chance that checksum passes despite corruption.
+To see how many and where the request packets hop thru, you can open a terminal (for mac) and type something like traceroute google.com
+You can make a request faster by using a CDN (content delivery network) or my making fewer packets.
 
 1/6 Th
 - When we type a URL into a browser and press enter, it parses it first as explained below. But how do we get the IP address when we type in google.com? 
