@@ -8,7 +8,8 @@
 ### I wanted to clone their approaches in my journey to become a great developer. 
 ### In this repo, I wanted to share my journey with whoever is interested.
 ### I don't plan to write on the weekends, because I want this to be a healthy habit not an obsession.
-#### Books to read
+
+### Books to read
 - Release it (paper copy)
 - [Imposter's handbook 1 & 2](https://bigmachine.io/products/the-imposters-handbook/)
 - [System design interview by Alex Xu](https://ebin.pub/qdownload/system-design-interview-an-insiders-guide-2nbsped-9798664653403.html)
