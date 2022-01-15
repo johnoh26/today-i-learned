@@ -22,6 +22,24 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/14 F (week's learning)
+- Control structure: if and while are examples of control structures. if statement can be used as a syntactic sugar to create a switch case statement, and while can be used to make a for loop.
+- ngModule: use modules to organize the code. imports, exports, providers and declarations are in a module. 
+  - imports are for using exported declarations of other modules in the current module, 
+  - exports are for code that can be used publicly (by other modules)
+  - declarations are for directives, including components and pipes that are created in the current module and can be used by others in the current module.
+  - providers are for services so that they can be used for dependency injection in the current module.
+- Angular routing
+  - use app routing module to specify path and the component the path should lead to. 
+  - [Routerlink] can be used with a <router-outlet> to specify where the routed component should show up. 
+  - Guards can be used to control access to a certain route. 
+  - Use ActivatedRoute via dependency injection to access queryParams.
+- Observables have 3 parameters: next, error and complete. 
+  - Observables are stream of events that we can subscribe to get notified when an event occurs. 
+  - Unsubscribe from observables to prevent memory leak. 
+  - Use Rxjs's observables and Angular's httpService for the database layer.
+  - use mergeMap to replace nested observables in case of making http request using the data from a subscribed observable.
+
 1/7 F
 - after a url is entered into a browser and the ip address is received from the DNS, the three way handshake happens where the client sends the server SYN, the server sends back SYN-ACK and client then sends back ACK.
 The three way handshake is used to establish TCP connection. UDP is connectionless and doesn't use the three way handshake, less reliable than TCP.
