@@ -7,6 +7,7 @@
 ### This mental model led him to be a great thinker and investor.
 ### I wanted to clone their approaches in my journey to become a great developer. 
 ### In this repo, I wanted to share my journey with whoever is interested.
+### I don't plan to write on the weekends, because I want this to be a healthy habit not an obsession.
 #### Books to read
 - Release it (paper copy)
 - [Imposter's handbook 1 & 2](https://bigmachine.io/products/the-imposters-handbook/)
