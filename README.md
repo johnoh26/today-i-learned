@@ -24,6 +24,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+
+1/18 T (1/17 M MLK Day)
+- lexical and dynamic scope: the lexical scoping indicate when a variable's scope within a function is only defined inside the function, compared to dynamic scoping which can indicate a variable inside the scope as long as the function is running. 
+- For example, within main function, there is a function called firstFunc, and let's say there is a variable called a `scope`. If the programming language we are using uses lexical scoping, the scope will not be able to refer to the variable outside of the firstFunc, unless passed into the function as an argument, whereas in dynamic scoping, we can refer to the variable in the main function outside the firstFunc.
+- Arguments to a function can be passed in by value or by reference. If passed by value, a copy of the argument is created and it doesn't affect the original variable whereas pass by reference passes the reference of the variable to the argument, and consequently, changes to the argument's value will result in the change in original variable's value.
+- For example, in the main program, let's define a variable called `mainVar` and make it equal to a number `5`. Let's say the firstFunc take one argument and changes the value of the argument to `3` and return it. If passed my value, when we call firstFunc(mainVar), firstFunc will return 3 and mainVar will remain as `5` but if passed by reference, it will return 3 and change mainVar to `3`.
+
 1/14 F (week's learning)
 - Control structure: if and while are examples of control structures. if statement can be used as a syntactic sugar to create a switch case statement, and while can be used to make a for loop.
 - ngModule: use modules to organize the code. imports, exports, providers and declarations are in a module. 
