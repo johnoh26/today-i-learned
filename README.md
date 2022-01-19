@@ -18,6 +18,9 @@
 - [Understanding distributed systems](https://understandingdistributed.systems/)
 - [Design Patterns by GOF](http://www.uml.org.cn/c++/pdf/designpatterns.pdf)
 
+### Blogs
+- https://continuations.com/post/149364248835/tech-tuesday-index
+
 ------------------------------------------------------------ 2022 ------------------------------------------------------------
 
 Daily goals for the year:
