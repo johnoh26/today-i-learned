@@ -27,12 +27,32 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/20 Th
+- 2 types of forms in Angular
+  - template driven form
+    - used for basic forms using <form> tag, to which ngForm gets applied automatically.
+    - in the form, bind ngModel to <input> tags and can create a nested form by using ngModelGroup
+  - reactive form (programatic form)
+    - instantiate a formControlGroup instance and formControl instances for more granular validation and more complex forms
+- [Javascript function vs arrow function](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/#1-this-value)
+  - using the function keyword defines its own execution context while arrow function does not.
+  - execution context affects the `this` keyword
+  - as a result, arrow function can't be used as a constructor
+  - function and arrow function can be used as a method in a class, but when using the function keyword and calling the method using setTimeout, for example, could require binding the method back to the object, while the arrow function binds to the outer scope i.e. the class as its scope.
+- [LessCSS](https://www.youtube.com/watch?v=5mPEelNaZuc&list=PLLAZ4kZ9dFpNmzIb3XQi5QSFiEpK-UxUg)
+  - you can declare a variable and create functions and pass them to reduce repetition of styles.
+  - can use conditional operators
+  - can import variables and styles from other less files
+  - can nest CSS like html and create more readable CSS file
+
 
 1/18 T (1/17 M MLK Day)
-- lexical and dynamic scope: the lexical scoping indicate when a variable's scope within a function is only defined inside the function, compared to dynamic scoping which can indicate a variable inside the scope as long as the function is running. 
-- For example, within main function, there is a function called firstFunc, and let's say there is a variable called a `scope`. If the programming language we are using uses lexical scoping, the scope will not be able to refer to the variable outside of the firstFunc, unless passed into the function as an argument, whereas in dynamic scoping, we can refer to the variable in the main function outside the firstFunc.
-- Arguments to a function can be passed in by value or by reference. If passed by value, a copy of the argument is created and it doesn't affect the original variable whereas pass by reference passes the reference of the variable to the argument, and consequently, changes to the argument's value will result in the change in original variable's value.
-- For example, in the main program, let's define a variable called `mainVar` and make it equal to a number `5`. Let's say the firstFunc take one argument and changes the value of the argument to `3` and return it. If passed my value, when we call firstFunc(mainVar), firstFunc will return 3 and mainVar will remain as `5` but if passed by reference, it will return 3 and change mainVar to `3`.
+- lexical and dynamic scope: 
+   - the lexical scoping indicate when a variable's scope within a function is only defined inside the function, compared to dynamic scoping which can indicate a variable inside the scope as long as the function is running. 
+  - For example, within main function, there is a function called firstFunc, and let's say there is a variable called a `scope`. If the programming language we are using uses lexical scoping, the scope will not be able to refer to the variable outside of the firstFunc, unless passed into the function as an argument, whereas in dynamic scoping, we can refer to the variable in the main function outside the firstFunc.
+- Arguments to a function can be passed in by value or by reference. 
+  - If passed by value, a copy of the argument is created and it doesn't affect the original variable whereas pass by reference passes the reference of the variable to the argument, and consequently, changes to the argument's value will result in the change in original variable's value.
+  - For example, in the main program, let's define a variable called `mainVar` and make it equal to a number `5`. Let's say the firstFunc take one argument and changes the value of the argument to `3` and return it. If passed my value, when we call firstFunc(mainVar), firstFunc will return 3 and mainVar will remain as `5` but if passed by reference, it will return 3 and change mainVar to `3`.
 
 1/14 F (week's learning)
 - Control structure: if and while are examples of control structures. if statement can be used as a syntactic sugar to create a switch case statement, and while can be used to make a for loop.
