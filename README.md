@@ -27,6 +27,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/21 F
+- about investing: thought about my approach recently. As I have followed Mohnish Pabrai closely and his learning as he shares them on Youtube, I have decided the best use of my time would be to focus on my craft (i.e. coding) and aim to be average (or hopefully a bit above avg) by investing in the broader markets via 401k and a few select Nick Sleep type of investments with competitive advantage and a long runway.
+- This way I don't have to actively manage my investments as I have been doing (challenging myself to outperform the market and consuming much time/effort)
+- This way I can get better at my job and what I like doing i.e. coding
+- This way I may have time for a side project that can help me improve my skills even futher while proxying a out of the money call option, in case it turns into a startup!
+
 1/20 Th
 - 2 types of forms in Angular
   - template driven form
