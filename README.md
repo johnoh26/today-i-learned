@@ -27,6 +27,19 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/24 M
+- ABAC & RBAC (attribute-based access control vs role-based)
+- ABAC is primarility controlled by access policy. Access policies check whether there is an attribute that they are looking for and controls access based on it. Once the access policy is set up, it can provide granular access control and flexibility and scalability.
+- RBAC indicates that for every user there is a role, and every role has access to certain areas. This method is used much by SMEs (small-medium enterprises), and there are flat RBAC, hierarchical RBAC, etc. but essentially it is role centric. However, this can lead to "role explosions" as admin creates more and more roles to control access at a more granular level.
+  - ABAC Pros
+    - easier to scale 
+  - ABAC Cons
+    - higher setup effort 
+  - RBAC Pros
+    - easier setup 
+  - RBAC Cons
+    - can get messy as it scales
+
 1/21 F
 - about investing: thought about my approach recently. As I have followed Mohnish Pabrai closely and his learning as he shares them on Youtube, I have decided the best use of my time would be to focus on my craft (i.e. coding) and aim to be average (or hopefully a bit above avg) by investing in the broader markets via 401k and a few select Nick Sleep type of investments with competitive advantage and a long runway.
 - This way I don't have to actively manage my investments as I have been doing (challenging myself to outperform the market and consuming much time/effort)
