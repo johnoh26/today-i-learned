@@ -39,7 +39,7 @@ Daily goals for the year:
 
 1/24 M
 - ABAC & RBAC (attribute-based access control vs role-based)
-- ABAC is primarility controlled by access policy. Access policies check whether there is an attribute that they are looking for and controls access based on it. Once the access policy is set up, it can provide granular access control and flexibility and scalability.
+- ABAC is primarility controlled by access policy. Access policies check whether there is an attribute that they are looking for and control access based on it. Once the access policy is set up, it can provide granular access control and flexibility and scalability.
 - RBAC indicates that for every user there is a role, and every role has access to certain areas. This method is used much by SMEs (small-medium enterprises), and there are flat RBAC, hierarchical RBAC, etc. but essentially it is role centric. However, this can lead to "role explosions" as admin creates more and more roles to control access at a more granular level.
   - ABAC Pros
     - easier to scale 
