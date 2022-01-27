@@ -181,31 +181,33 @@ Goals for the year:
 - Leetcode: Reverse string (using recursion)
 - Tech Tues article on networking: the Open system interconnection 7 layer model. 7 layers are physical (e.g. ethernet or wifi), datalink, network (IP), transport (TCP), session, presentation, application (HTTP)
 
-12/30
-- SOLID principles
-Single responsibility: do one thing i.e. should have only one reason for the code to change
+12/30 Th
+SOLID principles
+  
+1. Single responsibility
+Do one thing i.e. should have only one reason for the code to change
 e.g. CalorieTracker class having a calculateCalories method and a logCalories method violates the principle.
 solution: create a Logger class and use the logger class to log calories and remove logCalories method from the CalorieTracker class
 
-Open/closed
+2. Open/closed
 open for extension but closed for modification.
 e.g. class Problem that has a switch statement and various kinds of problems like multiple choice, true or false, essay, etc.
 if we want to add another question type, we have to add a case to the switch statement i.e. modifying the code.
 solution: make a class for each type of the problems and each class should have the same method e.g. displayQuestion(). This way, the Problem class will only have the displayQuestion method and the switch statement can be removed. We can add more question types by making more classes without modifying any of the existing code.
 
-Liskov substitution
+3. Liskov substitution
 subclass should be able to substitute the parent class
 e.g. if Square inherits from Rectangle and they both have a getArea method, increase a width by 1 of a rectangle will result in higher area but doing the same for a square will result in a greater increase in the area because increasing a width by 1 will also increase the length by 1 for a square, breaking Liskov.
 Solution: create another class e.g. Shape that both Square and Rectangle inherit from.
 e.g. Bird class having fly and swim methods won't work for a Penguin class, because it can't fly, breaking Liskov.
 solution: create a FlyingBird class or SwimmingBird class or FlyingSwimmingBird class. Composition is always preferred for Javascript than inheritance
 
-Interface segregation
+4. Interface segregation
 everything that implements an interface must implement everything in the interface.
 assume the Bird class above is an interface, Penguin won't implement a fly method, breaking the ISP.
 solution: break it down like in Liskov; break down ILibraryItem to IBook, IBorrowable, IDvd, etc. you can combine multiple interfaces to form another interface like IBorrowableBook: IBook, IBorrowable. Even though this may result in an empty interface, it is better to create this combining interface so that if instantiated in the main program, that it can reference all the methods from both interfaces.
 
-Dependency inversion
+5. Dependency inversion
 invert dependency by creating a wrapper like a facade pattern
 e.g. wrap paypal or stripe API in a PaymentProcessor class so that the existing code depends on the payment processor instead of the Paypal or Stripe Api
 
