@@ -27,6 +27,16 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/26 W
+- encountered `413 EntityTooLargeError` in an api endpoint for the first time. This was due to the cache exceeding its size limit.
+- Checklist for future when encountered a bug
+  - Check the logging service first for a full set of errors and detailed logs
+  - Write reproduction steps
+  - Run code locally by pointing at different environments to check whether it is an env issue or config issue
+  - redeploy/refresh files related to deployment to see if that does the trick
+  - try using a different slot (use Dev slot to point at Staging) to make sure it is not a slot issue
+  - at the end of the day, it can only be the feature code, middleware, configuration or storages
+
 1/24 M
 - ABAC & RBAC (attribute-based access control vs role-based)
 - ABAC is primarility controlled by access policy. Access policies check whether there is an attribute that they are looking for and controls access based on it. Once the access policy is set up, it can provide granular access control and flexibility and scalability.
