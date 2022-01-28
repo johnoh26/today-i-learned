@@ -27,6 +27,9 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/27 Th
+- prefer saving static data or mapping instead of hardcoding it in the code. In case the data/mapping changes, shouldn't have to change the code; just update the data in the DB.
+
 1/26 W
 - encountered `413 EntityTooLargeError` in an api endpoint for the first time. This was due to the cache exceeding its size limit.
 - Checklist for future when encountered a bug
@@ -185,30 +188,30 @@ Goals for the year:
 SOLID principles
   
 1. Single responsibility
-Do one thing i.e. should have only one reason for the code to change
+- Do one thing i.e. should have only one reason for the code to change
 e.g. CalorieTracker class having a calculateCalories method and a logCalories method violates the principle.
 solution: create a Logger class and use the logger class to log calories and remove logCalories method from the CalorieTracker class
 
 2. Open/closed
-open for extension but closed for modification.
+- open for extension but closed for modification.
 e.g. class Problem that has a switch statement and various kinds of problems like multiple choice, true or false, essay, etc.
 if we want to add another question type, we have to add a case to the switch statement i.e. modifying the code.
 solution: make a class for each type of the problems and each class should have the same method e.g. displayQuestion(). This way, the Problem class will only have the displayQuestion method and the switch statement can be removed. We can add more question types by making more classes without modifying any of the existing code.
 
 3. Liskov substitution
-subclass should be able to substitute the parent class
+- subclass should be able to substitute the parent class
 e.g. if Square inherits from Rectangle and they both have a getArea method, increase a width by 1 of a rectangle will result in higher area but doing the same for a square will result in a greater increase in the area because increasing a width by 1 will also increase the length by 1 for a square, breaking Liskov.
 Solution: create another class e.g. Shape that both Square and Rectangle inherit from.
 e.g. Bird class having fly and swim methods won't work for a Penguin class, because it can't fly, breaking Liskov.
 solution: create a FlyingBird class or SwimmingBird class or FlyingSwimmingBird class. Composition is always preferred for Javascript than inheritance
 
 4. Interface segregation
-everything that implements an interface must implement everything in the interface.
+- everything that implements an interface must implement everything in the interface.
 assume the Bird class above is an interface, Penguin won't implement a fly method, breaking the ISP.
 solution: break it down like in Liskov; break down ILibraryItem to IBook, IBorrowable, IDvd, etc. you can combine multiple interfaces to form another interface like IBorrowableBook: IBook, IBorrowable. Even though this may result in an empty interface, it is better to create this combining interface so that if instantiated in the main program, that it can reference all the methods from both interfaces.
 
 5. Dependency inversion
-invert dependency by creating a wrapper like a facade pattern
+- invert dependency by creating a wrapper like a facade pattern
 e.g. wrap paypal or stripe API in a PaymentProcessor class so that the existing code depends on the payment processor instead of the Paypal or Stripe Api
 
 source: web dev simplified and Tim Corey on Youtube
