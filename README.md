@@ -27,6 +27,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/28 F
+- .NET Async Await
+  - using "async" keyword creates a state machine, which can be seen by inspecting the IL using ILSPY.
+  - using "await" creates different checkpoints the state machine can jump to
+  - using an async function with in "main()", for example, requires main to be async, as the method propagates up.
+  - source: https://youtube.com/watch?v=il9gl8MH17s (Raw Coding - Async deep dive)
+
 1/27 Th
 - prefer saving static data or mapping instead of hardcoding it in the code. In case the data/mapping changes, shouldn't have to change the code; just update the data in the DB.
 
