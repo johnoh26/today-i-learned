@@ -27,6 +27,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+1/31 M
+- OData is short for open data protocol. In combination with .NET's web api, we can easily set up OData and use it to query exactly the data required.
+- OData can organize data in more powerful server rather than in the client
+- Similar functionality as GraphQL but not the same thing. Easier to set up (at least for .NET web api) than GraphQL. No need to deal with Schemas, Resolvers, etc.
+link: https://www.progress.com/blogs/rest-api-industry-debate-odata-vs-graphql-vs-ords
+
 1/28 F
 - .NET Async Await
   - using "async" keyword creates a state machine, which can be seen by inspecting the IL using ILSPY.
