@@ -27,6 +27,18 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+2/1 T
+- Abstract class contains one or more abstract methods
+- Abstract method has no implementation and has to be overriden
+- Virtual method has an implementation but can be overridden
+
+- Interface only has signatures and not implementations
+- Sealed prevents further inheritance
+- Protected is like Private but can be derived
+
+- Readonly is run-time constant
+- Constant is compile time constant
+
 1/31 M
 - OData is short for open data protocol. In combination with .NET's web api, we can easily set up OData and use it to query exactly the data required.
 - OData can organize data in more powerful server rather than in the client
