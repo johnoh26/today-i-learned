@@ -30,6 +30,7 @@ Daily goals for the year:
 2/2 W - C# basics
 - project means a .csproj file
 - assembly means a .csproj file compiled in to DLL or EXE
+- don't allow more access than is necessary e.g. using `public` for a property when it doesn't need to be is not good practice in principle, but when testing API contracts, each property must be tested and can be a burden.
 - XUnit uses the class's constructor for test initialization and Dispose method for test cleanup. For test cases, use [Fact] attribute
 
 2/1 T - C# access modifiers and more
