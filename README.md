@@ -27,7 +27,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
-2/1 T
+2/2 W - C# basics
+- project means a .csproj file
+- assembly means a .csproj file compiled in to DLL or EXE
+- XUnit uses the class's constructor for test initialization and Dispose method for test cleanup. For test cases, use [Fact] attribute
+
+2/1 T - C# access modifiers and more
 - Abstract class contains one or more abstract methods
 - Abstract method has no implementation and has to be overriden
 - Virtual method has an implementation but can be overridden
