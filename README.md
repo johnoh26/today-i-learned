@@ -27,6 +27,10 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+2/3 Th - Visual Studio debugging
+- when can't set a breakpoint, start debugging and go to DEBUG -> WINDOWS -> MODULES -> find the DLL in use and see which folders VS looked at to locate the DLL, and copy and paste DLL and PDB to that folder.
+- is unit test necessary for the repository layer when there is no business logic? if so, how to correctly test it?
+
 2/2 W - C# basics
 - project means a .csproj file
 - assembly means a .csproj file compiled in to DLL or EXE
