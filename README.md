@@ -27,6 +27,10 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+2/4 F
+- Automata means abstract machine; finite state machine (FSM) means a machine that can only have a finite number of states e.g. Espresso machine: On, Off, Brewing and Rest.
+- Cosmos DB document doesn't allow having an object as a key. Need to serialize (stringify) the object before using it as a key.
+
 2/3 Th - Visual Studio debugging
 - when can't set a breakpoint, start debugging and go to DEBUG -> WINDOWS -> MODULES -> find the DLL in use and see which folders VS looked at to locate the DLL, and copy and paste DLL and PDB to that folder.
 - is unit test necessary for the repository layer when there is no business logic? if so, how to correctly test it?
