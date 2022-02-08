@@ -27,6 +27,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+2/7 M - Turing machine
+-  think of the Turing machine as a finite state machine with an infinitely long tape
+-  it can read/write to the tape
+-  it can operate at an arbitrary point on the tap and its behavior depends on the current state and what's on the tape.
+-  based on above, it can write to the tape or leave it unchanged, and move to the left or right
+link: https://www.youtube.com/watch?v=dNRDvLACg5Q
+
 2/4 F
 - Automata means abstract machine; finite state machine (FSM) means a machine that can only have a finite number of states e.g. Espresso machine: On, Off, Brewing and Rest.
 - Cosmos DB document doesn't allow having an object as a key. Need to serialize (stringify) the object before using it as a key.
