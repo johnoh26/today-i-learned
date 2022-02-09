@@ -27,6 +27,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 Leetcode
 
+2/8 T - Address Resolution Protocol (ARP)
+- ARP is a mapping between IP address and MAC (media access control) address
+- we have the IP address to which we want to send the packets, but we need the MAC address for Layer 2 (layer 2: mac address, layer 4: IP, layer 7: http request)
+- send ARP request to the IP address and store the MAC address in the local ARP table
+- man in the middle attack and ARP corruption attacks exist
+
 2/7 M - Turing machine
 -  think of the Turing machine as a finite state machine with an infinitely long tape
 -  it can read/write to the tape
