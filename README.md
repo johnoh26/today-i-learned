@@ -25,7 +25,19 @@
 
 Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
-2) 1 Leetcode
+2) 1 commit to side project (changed from 1 leetcode on Feb 10)
+
+2/10 Th - layer architecture
+- convert DB object to a CTO even if no modifications are needed.
+- this prevents sensitive info in DB from getting leaked.
+- conversion in the service layer
+- business objects combine various operations in one object whereas a service focuses on one thing and one thing only (SRP)
+
+2/9 W - reflecting in my goal/priority
+- I need to prioritie working on side project vs. TIL.
+- becoming an expert in tech is not practical. Tech is ever evolving and even if become an expert, what'a the end goal? Teach? Google?
+- learn continuously but for me, the reason for learning is to make something that can make people's lives better in some way.
+- updated daily goal of 1 leetcode to 1 commit to side project
 
 2/8 T - Address Resolution Protocol (ARP)
 - ARP is a mapping between IP address and MAC (media access control) address
