@@ -27,6 +27,19 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/11 F - CAP Theorem and ACID properties (from Hussein Nasser's youtube channel)
+- CAP theorem states that we can only have two of Consistency, Availability and Partition Tolerance.
+- Partition here means there is a networking i.e. communication between partitions
+- ACID properties of a database
+  - Atomicity: a transaction (which may entail several operations) either fails or succeeds together. 
+  - Consistency: Data is consistent in the DB. e.g. the number of likes for a posting in the POSTING table is equal to the number of users that liked that post in the USERS table.
+  - Isolation: few levels of isolations exist: (1) read uncommitted, (2) read committed, (3) repeatable read and (4) 
+    - read uncommitted: give me all the data
+    - read committed: only give me committed data
+    - repeatable read: e.g. version the DB so that I can read repeatedly and would get the same result
+    - lock: exclusive lock the DB just for my write; shared lock for reads
+  - Durability: the data once commited and the DB says "all set", if the power goes out right after, the data should remain. A cache is an example of undurable DB.
+
 2/10 Th - layer architecture
 - convert DB object to a CTO even if no modifications are needed.
 - this prevents sensitive info in DB from getting leaked.
