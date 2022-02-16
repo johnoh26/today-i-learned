@@ -27,6 +27,9 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/15 T - mocking a lambda expression in C# (2/14 M skipped due to Valentine's day)
+- mocking it like `method(x => x.Version == It.IsAny<string>)` does not work. Need to create an expression like `method(It.IsAny<Expression<Func<Output_Name, bool>>>())` for example. To test what goes inside the lambda expression, need to add a callback, and the mock get more involved.
+
 2/11 F - CAP Theorem and ACID properties (from Hussein Nasser's youtube channel)
 - CAP theorem states that we can only have two of Consistency, Availability and Partition Tolerance.
 - Partition here means there is a networking i.e. communication between partitions
