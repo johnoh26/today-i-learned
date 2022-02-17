@@ -27,6 +27,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/16 W - Jason web token (JWT)
+- storing session info in DB increases latency because it needs to make another call from the service to the DB to check whether the session is valid
+- using JWT can allow the service to trust the user
+- there are other complication e.g. how to deprecate, expire the JWT?
+- symmetric vs. asymmetric key: symmetric key is used to encrypt and decrypt while asymmetric key uses one key for encryption and another for decryption. Losing symmetric key can lead to a bad user generating secrets using the key while asymmetric key doesn't allow that.
+
 2/15 T - mocking a lambda expression in C# (2/14 M skipped due to Valentine's day)
 - mocking it like `method(x => x.Version == It.IsAny<string>)` does not work. Need to create an expression like `method(It.IsAny<Expression<Func<Output_Name, bool>>>())` for example. To test what goes inside the lambda expression, need to add a callback, and the mock get more involved.
 
