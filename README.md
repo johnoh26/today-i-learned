@@ -27,6 +27,10 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/17 Th - on the job Dotnet
+- for interfaces, prefer broad types (e.g. prefer IEnumerable to IList) so that implementation can be a List or Array or something else.
+- make services internal and interfaces public unless a service is meant to be used outside of the DLL. This way only the interface is exposed and not the specific implementation, eliminating the chance for confusion.
+
 2/16 W - Jason web token (JWT)
 - storing session info in DB increases latency because it needs to make another call from the service to the DB to check whether the session is valid
 - using JWT can allow the service to trust the user
