@@ -27,6 +27,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/18 F - dotnet
+- Task.Run() to make a function async
+- Task.WhenAll(task1, task2, ...) to make parallel async calls
+- combine Task.Run and Parallel.forEach to run async calls in order and parallel (especially when progress status is needed)
+
 2/17 Th - on the job Dotnet
 - for interfaces, prefer broad types (e.g. prefer IEnumerable to IList) so that implementation can be a List or Array or something else.
 - make services internal and interfaces public unless a service is meant to be used outside of the DLL. This way only the interface is exposed and not the specific implementation, eliminating the chance for confusion.
