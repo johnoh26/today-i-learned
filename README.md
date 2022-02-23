@@ -27,6 +27,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/22 T (M was president's day)
+- how to create an InMemoryDB to test repository methods
+- for SQL server and entityframework, use EFFORT (entity framework fake objectContext realization tool)
+- for cosmosDB, still figuring it out
+
 2/18 F - dotnet
 - Task.Run() to make a function async
 - Task.WhenAll(task1, task2, ...) to make parallel async calls
