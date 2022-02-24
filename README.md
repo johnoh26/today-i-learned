@@ -27,10 +27,16 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/23 W - Business object vs. services
+- repository layer is to access the database layer. Methods in the repo layer should not contain much logic. Should be simple LINQ-ish methods.
+- Business objects (BO) can contain some logic in addition to the repository layer.
+- BO allows for the repo layer to change, without changing the BO.
+- BO is a place for various methods, and if you break the methods into a separate file per method, it becomes a service (e.g. ClassUpdateService, ClassCreationService, ClassDeletionService, ClassCalculationService, etc.)
+
 2/22 T (M was president's day)
 - how to create an InMemoryDB to test repository methods
 - for SQL server and entityframework, use EFFORT (entity framework fake objectContext realization tool)
-- for cosmosDB, still figuring it out
+- for cosmosDB, can simply use Moq's {BaseClass: true} and mock the method from the parent class.
 
 2/18 F - dotnet
 - Task.Run() to make a function async
