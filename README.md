@@ -27,6 +27,10 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/24 Th - localStorage vs sessionStorage
+- localStorage persists between tabs until browser is closed.
+- sessionStorage is specific to a tab.
+
 2/23 W - Business object vs. services
 - repository layer is to access the database layer. Methods in the repo layer should not contain much logic. Should be simple LINQ-ish methods.
 - Business objects (BO) can contain some logic in addition to the repository layer.
@@ -36,7 +40,8 @@ Daily goals for the year:
 2/22 T (M was president's day)
 - how to create an InMemoryDB to test repository methods
 - for SQL server and entityframework, use EFFORT (entity framework fake objectContext realization tool)
-- for cosmosDB, can simply use Moq's {BaseClass: true} and mock the method from the parent class.
+- for cosmosDB, can simply use Moq's Mock<ClassName>(){CallBase: true}; and setup the method from the parent class.
+- Note that Mock<ClassName> is not Mock<InterfaceName>
 
 2/18 F - dotnet
 - Task.Run() to make a function async
