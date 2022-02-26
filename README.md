@@ -27,6 +27,9 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+2/25 F - startup
+- according to YC startup school series the two main lessons are launch quickly and talk to users
+
 2/24 Th - localStorage vs sessionStorage
 - localStorage persists between tabs until browser is closed.
 - sessionStorage is specific to a tab.
