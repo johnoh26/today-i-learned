@@ -17,6 +17,7 @@
 - [Clean architecture by uncle Bob](http://prof.mau.ac.ir/images/Uploaded_files/Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Pearson%20Education%20(2018)%5B7615523%5D.PDF)
 - [Understanding distributed systems](https://understandingdistributed.systems/)
 - [Design Patterns by GOF](http://www.uml.org.cn/c++/pdf/designpatterns.pdf)
+- pro microservices with .NET 6 (study club at work)
 
 ### Blogs
 - https://continuations.com/post/149364248835/tech-tuesday-index
@@ -26,6 +27,15 @@
 Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
+
+2/28 M - microservices
+- monoliths are fine but it has a limit when it comes to scale.
+- microservices can scale well horizontally but adds complexity
+- each server should not be stateful as a user's request could get served by any server
+- deploying all servers at once can be done by Capistrano for Ruby on Rails
+- don't want svcs to call other svcs. If there is a common or core code, use a library so that it gets included in the process.
+- Separate deployability can be another reason why microservices are preferred along with fault isolation
+- distributed monoliths are not desirable but can be a stepping stone toward microsvcs.
 
 2/25 F - startup
 - according to YC startup school series the two main lessons are launch quickly and talk to users
