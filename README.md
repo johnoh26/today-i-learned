@@ -28,6 +28,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/1 T - nullable reference type in C#
+- starting in .NET 6, with `<Nullable> enabled </Nullable>`, reference types are not automatically nullable as they were
+- do not pass an object straight to logging, as it can be an EF object or another DB object that may contain extra info that should not be exposed.
+- e.g. thingToLog.Select(x => new {x.PropertyA, x.PropertyB});
+
 2/28 M - microservices
 - monoliths are fine but it has a limit when it comes to scale.
 - microservices can scale well horizontally but adds complexity
