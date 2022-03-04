@@ -28,6 +28,16 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/3 Th (3/2 sick)
+- protected C# keyword
+- derived classes can access protected members
+- protected internal means either derived class or internal to the dll can access the member.
+- protected private means it has to be a derived class in the same assembly.
+- static constructor gets created only once
+- angular life cycle hooks go ngOnChanges, ngOnInit and various Init and Check on Content and View and lastly ngOnDestroy.
+- Ukraine is suffering from a war started by Russia under Putin. Markets volatile as uncertainties around politics as well as energy prices grow.
+I'm considering whether this is the right time to purchase a home given that my oldest is turning 4. The rate is expected to go up according to Jay Powell due to high inflation.
+
 3/1 T - nullable reference type in C#
 - starting in .NET 6, with `<Nullable> enabled </Nullable>`, reference types are not automatically nullable as they were
 - do not pass an object straight to logging, as it can be an EF object or another DB object that may contain extra info that should not be exposed.
