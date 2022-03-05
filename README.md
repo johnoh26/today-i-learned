@@ -28,6 +28,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/4 F
+- angular change detection basically happens when there is an async operation done.
+- angular has 2 change detections: default or OnPush. OnPush only updates the template if the data has changed.
+- ref: https://mokkapps.de/blog/the-last-guide-for-angular-change-detection-you-will-ever-need/
+
 3/3 Th (3/2 sick)
 - protected C# keyword
 - derived classes can access protected members
