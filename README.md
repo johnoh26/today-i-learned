@@ -28,6 +28,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/7 M - Stored procedures
+- use stored procedures as they are faster, can group multiple operations into an atomic transaction.
+- can create a role that have access to certain sprocs and this way a user can't see or alter tables unless they can do those using sprocs.
+- cons: business logic in DB access layer and no version control.
+
 3/4 F
 - angular change detection basically happens when there is an async operation done.
 - angular has 2 change detections: default or OnPush. OnPush only updates the template if the data has changed.
