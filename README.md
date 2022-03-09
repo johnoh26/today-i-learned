@@ -28,6 +28,15 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/8 T - Asp.net (chapter 2 of pro microsvcs book)
+- MVC model has a long history and asp.net incorporated it since WinForms.
+- routing as a fourth element was added in asp.net.
+- controller is responsible for sending requests to the right model
+- view is in charge of binding data to html
+- model has business logic
+- controller can have validation and logging
+- a web framework essentially deals with request to response pipeline.
+
 3/7 M - Stored procedures
 - use stored procedures as they are faster, can group multiple operations into an atomic transaction.
 - can create a role that have access to certain sprocs and this way a user can't see or alter tables unless they can do those using sprocs.
