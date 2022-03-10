@@ -28,8 +28,16 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/9 W - Domain driven design (DDD)
+- Domain for an accounting firm would be accounting. It is what the application is trying to achieve.
+- subdomain is a grouping of related business processes. Payroll, accounts payable and accounts receivable would be subdomains of the accounting domain.
+- HR for an accounting firm would be an ancillary domain.
+- Similar business processes form a problem space.
+- a group of codes for a subdomain is called a bounded context and they form a solution space.
+- program.cs vs. startup.cs: program.cs is run when the application starts and in it, we can call startup.cs where we can configure various things such as middleware, authentication, etc.
+
 3/8 T - Asp.net (chapter 2 of pro microsvcs book)
-- MVC model has a long history and asp.net incorporated it since WinForms.
+- MVC pattern has a long history and asp.net incorporated it since WinForms.
 - routing as a fourth element was added in asp.net.
 - controller is responsible for sending requests to the right model
 - view is in charge of binding data to html
