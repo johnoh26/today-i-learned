@@ -28,6 +28,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/10 Th - System design, CDN, DNS
+- try to maximize thruput given acceptable latency
+- content delivery network (CDN) is used to deliver contents more quickly to users, as they are globally distributed.
+- pull vs push CDN: push CDN you push content to the CDN and have more flexibility in terms of push timing, expiration, what to push, etc. Pull CDN is easier to use as CDN pulls contents from you. This can lead to slower UX initially until pulled and some redundant traffic from re-queries.
+- Domain name system (DNS) translate website names to IP addresses. This way, people don't have to remember IP addresses. Usually provided by ISPs, governments or other tech companies. If subject to attack or down, can lead to a web not easily accessible.
+
 3/9 W - Domain driven design (DDD)
 - Domain for an accounting firm would be accounting. It is what the application is trying to achieve.
 - subdomain is a grouping of related business processes. Payroll, accounts payable and accounts receivable would be subdomains of the accounting domain.
