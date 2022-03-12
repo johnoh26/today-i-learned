@@ -28,6 +28,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/11 F - Load balancer
+- load balancers are used to direct requests from clients to web servers/DBs
+- some stratgies include (weighted) round robin, random, least load, session/cookies
+- there are layer 4 and layer 7 load balancers. Layer 4 LB is faster at the expense of less flexibility as it has access to header, IP and port info in layer 4 but can't see more info in layer 7 like the payload, cookies, etc.
+
 3/10 Th - System design, CDN, DNS
 - try to maximize thruput given acceptable latency
 - content delivery network (CDN) is used to deliver contents more quickly to users, as they are globally distributed.
