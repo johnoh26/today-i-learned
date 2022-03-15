@@ -28,6 +28,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/14 M - reverse proxy and microservics
+- microsvc vs distributed monolith: microservice should address one or a set of problems (business logic). It can have soft dependency on other service e.g. async calls using message queues.
+However, separating services and calling each other over the network is a distributed monolith with the same issues as a monolith.
+- reverse proxy can be used to perform heavy operations such as encryption/decryption that is common across servers. It can also be used as a load balancer.
+
 3/11 F - Load balancer
 - load balancers are used to direct requests from clients to web servers/DBs
 - some stratgies include (weighted) round robin, random, least load, session/cookies
