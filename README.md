@@ -28,6 +28,19 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/15 T - scaling DB
+- ACID
+Atomicity: transaction succeeds or fails as a whole
+Consistency: any transactions result in one valid state to another
+Isolation: concurrent transaction should lead to the sam result as if done sequentially
+Durability: data once committed, should persist
+- replication is one approach: master slave or master master
+- master-slave: read and write to master and master writes to slaves. Slave can write to other slaves like in a tree. Slaves help with reads.
+- cons: need a logic to promote a slave to replace the master if it fails
+- master-master: two masters supporting read and writes. If one fails, the other can take over.
+- cons: need to sync up (may affect consistency); need a load balancer.
+- replication con: if heavy writes, slaves will be busy relaying writes to help with reads
+
 3/14 M - reverse proxy and microservics
 - microsvc vs distributed monolith: microservice should address one or a set of problems (business logic). It can have soft dependency on other service e.g. async calls using message queues.
 However, separating services and calling each other over the network is a distributed monolith with the same issues as a monolith.
