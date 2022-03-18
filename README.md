@@ -28,6 +28,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/17 Th - DB Federation
+- also called functional partitioning; split up data by function
+- pros: smaller DBs leading to more data in memory and higher cache hits; no master DB doing many writes, reducing replication lag and improving thruput
+- cons: adds complexity to determine where to read from/write to; can contrain schema; if need to join tables, need to use a server link
+
+3/16 W - sick day
+
 3/15 T - scaling DB
 - ACID
 Atomicity: transaction succeeds or fails as a whole
