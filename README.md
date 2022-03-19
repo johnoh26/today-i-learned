@@ -28,6 +28,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/18 F - denormalizarion
+- create duplicate data/writes to avoid expensive joins especially when the DB is sharded or is using a federation.
+- cons: write would take longer, and adds complexity
+- benchmarking: simulate a high load situation
+- profiling: track performance issues e.g. by using slow query log
+
 3/17 Th - DB Federation
 - also called functional partitioning; split up data by function
 - pros: smaller DBs leading to more data in memory and higher cache hits; no master DB doing many writes, reducing replication lag and improving thruput
