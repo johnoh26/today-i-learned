@@ -28,9 +28,15 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/21 M - tightening schema and use better indices
+- SELECT, JOIN, ORDER BY and GROUP BY can improve by using good indices.
+- DB index uses b-tree structure. Learn more about it. (Balanced tree is a generalized form of BST that can have many branches)
+- tighten schema via using CHAR instead of VARCHAR and using NOT NULL, etc.
+
 3/18 F - denormalizarion
 - create duplicate data/writes to avoid expensive joins especially when the DB is sharded or is using a federation.
 - cons: write would take longer, and adds complexity
+- SQL tuning via benchmarking and profiling
 - benchmarking: simulate a high load situation
 - profiling: track performance issues e.g. by using slow query log
 
