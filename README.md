@@ -28,6 +28,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/23 W
+- sequence found error in C# indicated a SingleOrDefault method finding multiple DB tables.
+- as a SWE 2, the goal is to (1) carry a project from architecting to implementation and (2) minimize PR feedback and future refactors
+
+3/22 T
+- my son's first day at school! Send kids to socialize sooner rather than later, altho Covid is a deterrent.
+
 3/21 M - tightening schema and use better indices
 - SELECT, JOIN, ORDER BY and GROUP BY can improve by using good indices.
 - DB index uses b-tree structure. Learn more about it. (Balanced tree is a generalized form of BST that can have many branches)
