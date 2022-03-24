@@ -29,7 +29,7 @@ Daily goals for the year:
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
 3/23 W
-- sequence found error in C# indicated a SingleOrDefault method finding multiple DB tables.
+- 'Sequence contains more than one element' error in C# indicated a SingleOrDefault method finding multiple DB tables.
 - as a SWE 2, the goal is to (1) carry a project from architecting to implementation and (2) minimize PR feedback and future refactors
 
 3/22 T
