@@ -28,6 +28,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/24 Th - BASE of Nosql dbs
+- there are various types of nosql dbs: key value store, document store, graph store, etc.
+- like ACID for sql db, nosql db has BASE
+- Basic Availability: focused on availability
+- Soft state: data can change without an input due to eventual consistency
+- Eventual consistency: data will be consistent
+
 3/23 W
 - 'Sequence contains more than one element' error in C# indicated a SingleOrDefault method finding multiple DB tables.
 - as a SWE 2, the goal is to (1) carry a project from architecting to implementation and (2) minimize PR feedback and future refactors
