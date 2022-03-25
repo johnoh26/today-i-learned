@@ -28,6 +28,13 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/25 F - type, class, interface in Typescript
+- there is a value space and type space in TS
+- class falls under both spaces while type and interface are in the type space
+- use type when no need to specify method signatures. Use interface if you do.
+- use function type to type a method
+- easy to extend interface in typescript vs. class but preference.
+
 3/24 Th - BASE of Nosql dbs
 - there are various types of nosql dbs: key value store, document store, graph store, etc.
 - like ACID for sql db, nosql db has BASE
