@@ -28,12 +28,17 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/28 M - Pro microservices .NET6
+- in microservices, you shouldn't access the internals of another aggregate. Only interact thru the aggregate root.
+- chnage in DB schema should not affect microservices as long as they can still get what they need from the DB. They don't have to use a new column added.
+- use a library when in the same subdomain but use an api when in a different domain because if using a library and it gets updated, the user has to be notified whereas the API can be updated i.e. easier to manage.
+
 3/25 F - type, class, interface in Typescript
 - there is a value space and type space in TS
 - class falls under both spaces while type and interface are in the type space
 - use type when no need to specify method signatures. Use interface if you do.
 - use function type to type a method
-- easy to extend interface in typescript vs. class but preference.
+- easier to extend interface in typescript compared to class but a matter of preference.
 
 3/24 Th - BASE of Nosql dbs
 - there are various types of nosql dbs: key value store, document store, graph store, etc.
