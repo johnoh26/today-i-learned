@@ -28,6 +28,25 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/29 T - about caching
+- caching can speed up reads because it stores data in RAM vs hard drive
+- 5 general caching strategies:
+  - cache aside: 
+    - request data from cache first and if doesn't exist, go to DB and write it to the cache.
+    - disadv: cache miss can result in 3 trips; data can become stale, need to invalidate (by using TTL)
+  - write thru
+    - write to the cache and then write to the DB
+    - disadv: takes longer to write
+  - write back
+    - write to cache and the cache write to DB async
+    - disadv: can lose data if cache goes down
+  - read thru
+    - read from cache and if doesn't have data, cache gets it from DB
+    - disadv: data can become stale
+  - refresh ahead
+    - cache anticipates which data to extend TTL (time to live)
+    - disadv: need prediction logic
+
 3/28 M - Pro microservices .NET6
 - in microservices, you shouldn't access the internals of another aggregate. Only interact thru the aggregate root.
 - chnage in DB schema should not affect microservices as long as they can still get what they need from the DB. They don't have to use a new column added.
