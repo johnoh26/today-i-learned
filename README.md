@@ -28,6 +28,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/30 W - asynchronism
+- can use task/message queues to achieve asynchronism.
+- can help with request time if the operation doesn't need to be synchronous e.g. posting a tweet and followers receiving a notification don't have to be synchronously done
+- add a msg or task to the queue, message brokers check the queue and let relevant worker processes know about the msg/task, and worker processes execute and signal that they have done the work
+
 3/29 T - about caching
 - caching can speed up reads because it stores data in RAM vs hard drive
 - 5 general caching strategies:
