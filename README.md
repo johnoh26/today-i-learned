@@ -40,6 +40,7 @@ Daily goals for the year:
 - tldr: long runway and high return is the name of the game
 - the reason reinvestment after payout is not the same is because the reinvested dollars are buying the stock at the same multiple which reduces the return from 20% to 1% (20%/20x multiple)
 - roe may not be as meaningful for tech companies given it doesn't require traditional capital in case of product led growth.
+- avoid buybacks unless expected return is really attractive. Dividend is worse because of tax. Obvious, if nowhere to deploy capital in the business, the right thing to do is to return it. Dividend is better than buybacks if the expected return is not attractive.
 
 3/30 W - asynchronism
 - can use task/message queues to achieve asynchronism.
