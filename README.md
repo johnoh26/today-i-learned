@@ -28,6 +28,19 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+3/31 Th - investment compounding
+- the goal is to double 7 times asap leading to 124x
+- if grow at 20-30% per year, it takes ~3-4 years to double
+- absent recessions and consistent growth rate, it would take ~20-30yrs to double 7 times
+- $100k will be about $10 mil in 30 yrs.
+- thought experiment on a compounder vs. a reit.
+- if they both return 20% and compounder reinvests all and the reit pays put all.
+- compounder will be 2.5x the value in 5yrs assuming constant earning multiple.
+- the reit will be ~5% from ownership increase assuming the returned capital gets reinvested to the stock.
+- tldr: long runway and high return is the name of the game
+- the reason reinvestment after payout is not the same is because the reinvested dollars are buying the stock at the same multiple which reduces the return from 20% to 1% (20%/20x multiple)
+- roe may not be as meaningful for tech companies given it doesn't require traditional capital in case of product led growth.
+
 3/30 W - asynchronism
 - can use task/message queues to achieve asynchronism.
 - can help with request time if the operation doesn't need to be synchronous e.g. posting a tweet and followers receiving a notification don't have to be synchronously done
