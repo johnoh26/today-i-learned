@@ -8,6 +8,7 @@
 ### I wanted to clone their approaches in my journey to become a great developer. 
 ### In this repo, I wanted to share my journey with whoever is interested.
 ### I don't plan to write on the weekends, because I want this to be a healthy habit not an obsession.
+### Maybe review and refine content on the weekend.
 
 ### Books to read
 - Release it (paper copy)
@@ -29,28 +30,28 @@ Daily goals for the year:
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
 3/31 Th - investment compounding
-- the goal is to double 7 times asap leading to 124x
+- the goal is to double 7 times asap leading to 128x or 10 times to 1,024.
 - if grow at 20-30% per year, it takes ~3-4 years to double
-- absent recessions and consistent growth rate, it would take ~20-30yrs to double 7 times
-- $100k will be about $10 mil in 30 yrs.
+- absent recessions and consistent growth rate, it would take ~20-30yrs to double 7 times (40-50 for 10 times)
+- $100k will be about $10 mil in 30 yrs, assuming no recession and persistent growth rate.
 - thought experiment on a compounder vs. a reit.
-- if they both return 20% and compounder reinvests all and the reit pays put all.
+- if they both return 20% and compounder reinvests all and the reit pays out all.
 - compounder will be 2.5x the value in 5yrs assuming constant earning multiple.
-- the reit will be ~5% from ownership increase assuming the returned capital gets reinvested to the stock.
+- the reit will be ~5% from ownership increase assuming the returned capital gets reinvested to the stock at the same multiple.
 - tldr: long runway and high return is the name of the game
-- the reason reinvestment after payout is not the same is because the reinvested dollars are buying the stock at the same multiple which reduces the return from 20% to 1% (20%/20x multiple)
-- roe may not be as meaningful for tech companies given it doesn't require traditional capital in case of product led growth.
-- avoid buybacks unless expected return is really attractive. Dividend is worse because of tax. Obvious, if nowhere to deploy capital in the business, the right thing to do is to return it. Dividend is better than buybacks if the expected return is not attractive.
+- the reason reinvestment after payout is not the same as earnings reinvestment is because the reinvested dollars are buying the stock at the same multiple which reduces the return from 20% to 1% (20%/20x multiple)
+- ROE may not be as meaningful for tech companies given it doesn't require traditional capital in case of product led growth.
+- avoid buybacks unless expected return is really attractive (price is significantly under fair value). Dividend is worse because of tax. Obviously, if nowhere to deploy capital in the business, the right thing to do is to return it. Dividend is better than buybacks if the expected return is not attractive.
 
 3/30 W - asynchronism
 - can use task/message queues to achieve asynchronism.
-- can help with request time if the operation doesn't need to be synchronous e.g. posting a tweet and followers receiving a notification don't have to be synchronously done
-- add a msg or task to the queue, message brokers check the queue and let relevant worker processes know about the msg/task, and worker processes execute and signal that they have done the work
+- can help with request time if the operation doesn't need to be synchronous e.g. posting a tweet and followers receiving a notification don't have to be synchronously done i.e. it can take some time to complete.
+- add a msg or task to the queue, message brokers check the queue and let relevant worker processes know about the msg/task, and worker processes execute and signal that they have done the work.
 
 3/29 T - about caching
 - caching can speed up reads because it stores data in RAM vs hard drive
 - 5 general caching strategies:
-  - cache aside: 
+  - cache aside
     - request data from cache first and if doesn't exist, go to DB and write it to the cache.
     - disadv: cache miss can result in 3 trips; data can become stale, need to invalidate (by using TTL)
   - write thru
@@ -68,8 +69,8 @@ Daily goals for the year:
 
 3/28 M - Pro microservices .NET6
 - in microservices, you shouldn't access the internals of another aggregate. Only interact thru the aggregate root.
-- chnage in DB schema should not affect microservices as long as they can still get what they need from the DB. They don't have to use a new column added.
-- use a library when in the same subdomain but use an api when in a different domain because if using a library and it gets updated, the user has to be notified whereas the API can be updated i.e. easier to manage.
+- changes in DB schema should not affect microservices as long as they can still get what they need from the DB. They don't have to use a new column added.
+- use a library when in the same subdomain but use an api when in a different domain, because if using a library and it gets updated, the user has to know abt updates, whereas the API can just be updated i.e. easier to manage.
 
 3/25 F - type, class, interface in Typescript
 - there is a value space and type space in TS
