@@ -29,6 +29,23 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+4/1 F - Open systems interconnection (OSI) model
+- 7 layers: Please Do Not Throw Sausage Pizza Away
+- layer 7: application
+  - what users interact with
+- 6 presentation
+  - formats data for app layer
+- 5 session
+  - establishes session btwn ports
+- 4 transport
+  - TCP/UDP; msg segmentation and acknowledgement (3 way handshake); 
+- 3 network
+  - packets contain IP addresses
+- 2 datalink
+  - frames (e.g. envelopes) containing MAC address; transfers data error free; NIC card to switch to NIC card
+- 1 physical layer
+  - info converted to bits transmitted via cable
+
 3/31 Th - investment compounding
 - the goal is to double 7 times asap leading to 128x or 10 times to 1,024.
 - if grow at 20-30% per year, it takes ~3-4 years to double
