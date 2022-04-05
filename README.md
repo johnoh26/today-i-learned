@@ -29,6 +29,11 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+4/4 M - TCP vs UDP
+- http is a application layer protocol that depends on lower level protocols like tcp/udp
+- tcp is connection oriented via a 3 way handshake; has congestion control; uses checksum to guarantee data transfer corruption free
+- udp is faster but can lose data and not congestion control; used for streaming, game, etc.
+
 4/1 F - Open systems interconnection (OSI) model
 - 7 layers: Please Do Not Throw Sausage Pizza Away
 - layer 7: application
