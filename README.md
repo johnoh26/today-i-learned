@@ -29,6 +29,14 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+4/6 W -
+- if a fish could walk on land for an hour, it'd know more abut walking than explaining to it what it's like to walk on land for 1,000.
+- if you want to start a business, go out and start selling stuff. Don't sit around and try to learn what it's like to run a business.
+
+4/5 T
+- son and wife sick after trip to DC for cherry blossom week.
+- family over any commitment.
+
 4/4 M - TCP vs UDP
 - http is a application layer protocol that depends on lower level protocols like tcp/udp
 - tcp is connection oriented via a 3 way handshake; has congestion control; uses checksum to guarantee data transfer corruption free
