@@ -29,7 +29,12 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
-4/6 W -
+4/7 Th - RPC
+- remote procedure call is used to abstract away communication between different address spaces
+- a client can call a procedure in a server in a different address space as tho it were a local call
+- rpc less reliable than a local call since over the network
+
+4/6 W - starting business
 - if a fish could walk on land for an hour, it'd know more abut walking than explaining to it what it's like to walk on land for 1,000.
 - if you want to start a business, go out and start selling stuff. Don't sit around and try to learn what it's like to run a business.
 
