@@ -29,6 +29,10 @@ Daily goals for the year:
 1) 1 TIL from a Tech Tuesday article or few pages in a book
 2) 1 commit to side project (changed from 1 leetcode on Feb 10)
 
+4/8 F - hiatus
+- private project begins
+- TIL to resume in the future
+
 4/7 Th - RPC
 - remote procedure call is used to abstract away communication between different address spaces
 - a client can call a procedure in a server in a different address space as tho it were a local call
