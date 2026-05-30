@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <!-- Left lens -->
-  <rect x="9" y="34" width="33" height="30" rx="11"
-        fill="none" stroke="#00FF44" stroke-width="8"/>
+  <rect x="18" y="40" width="28" height="22" rx="9"
+        fill="none" stroke="#00FF44" stroke-width="7"/>
   <!-- Right lens -->
-  <rect x="58" y="34" width="33" height="30" rx="11"
-        fill="none" stroke="#00FF44" stroke-width="8"/>
+  <rect x="54" y="40" width="28" height="22" rx="9"
+        fill="none" stroke="#00FF44" stroke-width="7"/>
   <!-- Bridge -->
-  <path d="M42 48 Q50 54 58 48"
-        fill="none" stroke="#00FF44" stroke-width="8" stroke-linecap="round"/>
+  <path d="M46 50 Q50 56 54 50"
+        fill="none" stroke="#00FF44" stroke-width="7" stroke-linecap="round"/>
   <!-- Left temple -->
-  <line x1="9" y1="42" x2="6" y2="30"
-        stroke="#00FF44" stroke-width="8" stroke-linecap="round"/>
+  <line x1="18" y1="47" x2="15" y2="37"
+        stroke="#00FF44" stroke-width="7" stroke-linecap="round"/>
   <!-- Right temple -->
-  <line x1="91" y1="42" x2="94" y2="30"
-        stroke="#00FF44" stroke-width="8" stroke-linecap="round"/>
+  <line x1="82" y1="47" x2="85" y2="37"
+        stroke="#00FF44" stroke-width="7" stroke-linecap="round"/>
 </svg>
