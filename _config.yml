@@ -1,7 +1,7 @@
 title: "Today I Learned"
 description: "Daily notes on tech, investing, and life — inspired by Haruki Murakami's writing habit and Charlie Munger's pursuit of lifelong learning."
-url: "https://johnoh.is-a.dev"
-baseurl: ""
+url: "https://johnoh26.github.io"
+baseurl: "/today-i-learned"
 repository: "johnoh26/today-i-learned"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
