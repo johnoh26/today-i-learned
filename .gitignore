@@ -1,3 +1,10 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+
 # Logs
 logs
 *.log
